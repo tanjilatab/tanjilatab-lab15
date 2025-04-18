@@ -21,13 +21,11 @@ public class EnigmaFrame extends JFrame {
        rotor1 = new JComboBox<>(new String[] {"1", "2", "3", "4", "5"});
        topPanel.add(rotor1);
 
-       JPanel topPanel = new JPanel(new GridLayout(2, 6, 10, 5));
        topPanel.add(new JLabel("Middle"));
        rotor2 = new JComboBox<>(new String[] {"1", "2", "3", "4", "5"});
        topPanel.add(rotor2);
 
-       JPanel topPanel = new JPanel(new GridLayout(2, 6, 10, 5));
-       topPanel.add(new JLabel("Inner"));
+       topPanel.add(new JLabel("Outer"));
        rotor3 = new JComboBox<>(new String[] {"1", "2", "3", "4", "5"});
        topPanel.add(rotor3);
 
